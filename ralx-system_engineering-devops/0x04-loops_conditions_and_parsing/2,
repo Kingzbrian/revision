@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# while to print 10 times
+cal=1
+while [ $cal -le 10 ]
+do
+	echo "Best School"
+	($cal++)
+done

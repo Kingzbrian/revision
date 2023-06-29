@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+file="$(ls)" 
+for file in $file;
+do
+	echo "$file" | cut -f 2- -d '-'
+done

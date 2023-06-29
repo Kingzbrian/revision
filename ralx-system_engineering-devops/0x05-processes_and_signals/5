@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+id=$(pgrep "bash ./4" -f)
+if [ -n "$id" ]
+then
+	kill "$id"
+fi

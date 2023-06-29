@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "lrwxrwxrwx 1 root root 7 __ls__"
